@@ -1,0 +1,41 @@
+@import "../../variables.scss";
+
+.header {
+  width: 100%;
+  div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  nav {
+    background-color: $blue;
+
+    ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      gap: 100px;
+      padding: 10px;
+
+      div {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        color: $white;
+      }
+    }
+
+    li {
+      color: $white;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    nav {
+      display: none;
+    }
+  }
+}

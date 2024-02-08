@@ -1,0 +1,21 @@
+.secondBanner {
+  .Image {
+    width: 100%;
+    display: block;
+  }
+
+  .ImageMobile {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .Image {
+      display: none;
+    }
+
+    .ImageMobile {
+      display: block;
+      width: 100%;
+    }
+  }
+}

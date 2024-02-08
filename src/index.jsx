@@ -1,0 +1,11 @@
+export { Header } from "./components/Header";
+export { Banner } from "./components/Banner";
+export { Title } from "./components/Title";
+export { TextContent } from "./components/TextContent";
+export { Text } from "./components/Text";
+export { IconsBanner } from "./components/IconsBanner";
+export { SecondTextContent } from "./components/SecondTextContent";
+export { Products } from "./components/Products";
+export { Discoveries } from "./components/Discoveries";
+export { Button } from "./components/Button";
+export { Footer } from "./components/Footer";
